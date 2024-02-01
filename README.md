@@ -159,6 +159,13 @@ Headers to load the image with. e.g. `{ Authorization: 'someAuthToken' }`.
 
 ---
 
+### `animation?: enum`
+
+-   `FastImage.animation.none` **(Default)** - No animation in image loading.
+-   `FastImage.animation.fade` - Fade in animation in image loading.
+
+---
+
 ### `onLoadStart?: () => void`
 
 Called when the image starts to load.
@@ -262,7 +269,7 @@ It also uses Glide and SDWebImage, but didn't have some features I needed (prior
 
 Thanks to [@mobinni](https://github.com/mobinni) for helping with the conceptualization.
 
-This is fork repository based on [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image).
+This is fork repository based on [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image). Animations are implemented based on this [pull request](https://github.com/DylanVann/react-native-fast-image/pull/979).
 
 ## Licenses
 
