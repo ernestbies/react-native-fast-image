@@ -260,13 +260,15 @@ The idea for this modules came from
 package.
 It also uses Glide and SDWebImage, but didn't have some features I needed (priority, headers).
 
-Thanks to [@mobinni](https://github.com/mobinni) for helping with the conceptualization
+Thanks to [@mobinni](https://github.com/mobinni) for helping with the conceptualization.
+
+This is fork repository based on [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image).
 
 ## Licenses
 
 -   FastImage - MIT © [DylanVann](https://github.com/DylanVann)
 -   SDWebImage - `MIT`
--   Glide - BSD, part MIT and Apache 2.0. See the [LICENSE](https://github.com/bumptech/glide/blob/master/license) file for details.
+-   Glide - BSD, part MIT and Apache 2.0. See the [LICENSE](https://github.com/bumptech/glide/blob/master/LICENSE) file for details.
 
 [build-badge]: https://github.com/dylanvann/react-native-fast-image/workflows/CI/badge.svg
 [build]: https://github.com/DylanVann/react-native-fast-image/actions?query=workflow%3ACI
